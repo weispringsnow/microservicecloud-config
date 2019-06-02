@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+	- dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-chenglian-dev
+---	
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-chenglian-test
+		
